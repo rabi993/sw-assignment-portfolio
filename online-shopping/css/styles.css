@@ -1,0 +1,158 @@
+
+
+#floatnews{
+    margin-left: 450px;
+}
+#cardover{
+    padding-top:100px ;
+    padding-right: 50px;
+    padding-left: 4cqw;
+    /* opacity: .5; */
+}
+#cardover h5{
+    font-size: 35px;
+}
+#cardover p{
+    font-size: 25px;
+}
+#cardover button{
+    font-size: 30px;
+}
+#cardover1{
+    padding-top:220px ;
+    width: 50%;
+    
+}
+#cardover1 h5{
+    font-size: 35px;
+}
+#cardover1 p{
+    font-size: 25px;
+}
+#cardover1 button{
+    font-size: 30px;
+}
+
+.btnover{
+    margin-top: -10px;
+}
+.Productdet{
+    display: flex;
+    justify-content: start;
+    gap: 20px;
+}
+.Productdet div{
+    display: flex;
+    justify-content: start;
+    gap: 10px;
+
+}
+#star{
+    width: 35px;
+}
+#cart{
+    width: 30px;
+}
+
+.footer-content{
+    display: flex;
+    justify-content:space-evenly;
+    gap: 20px;
+    background-color: #333;
+    color: white;
+    padding: 50px 10%;
+    margin-left: 110px;
+    /* margin: auto; */
+}
+
+.footer-col {
+    width: 30%;
+}
+
+.footer-col h3 {
+    font-size: 20px;
+    margin-bottom: 20px;
+    padding-left: 30px;
+}
+
+.footer-col ul {
+    list-style: none;
+}
+
+.footer-col ul li {
+    margin-bottom: 10px;
+}
+
+.footer-col p {
+    color: #bbb;
+}
+.address{
+    display: flex;
+    justify-content:left;
+    margin-left: -60px;
+    margin-bottom: 15px;
+}
+
+
+.addditails{
+    margin-left: 50px;
+}
+.foo{
+    display: flex;
+    justify-content: space-between;
+}
+.foo div{
+    width: 300px;
+}
+
+@media screen and (max-width:576px){
+    #cardover {
+        padding-top:50px ;
+        padding-right: -0px ;
+        /* padding-left: 4cqw; */
+        /* opacity: .5; */
+    }
+    #cardover h5{
+        font-size: 25px;
+    }
+    #cardover p{
+        font-size: 15px;
+    }
+    #cardover button{
+        font-size: 20px;
+    }
+    #cardover1{
+        padding-top:0px ;
+        width: 100%;
+    }
+    #cardover1 h5{
+        font-size: 20px;
+    }
+    #cardover1 p{
+        font-size: 15px;
+    }
+    #cardover1 button{
+        font-size: 15px;
+    }
+    .footer-content{
+        display: block;
+        /* justify-content:; */
+        
+        padding: 10px 0%;
+        margin-left: 0px;
+        /* margin: auto; */
+        
+    }
+    .foot1{
+        /* text-align: center; */
+        width: 100%;
+        padding-bottom: 50px;
+    }
+    .foot4{
+        /* text-align: center; */
+        width: 100%;
+        margin-left: 90px;
+        padding-top: 50px;
+        /* text-align: center; */
+    }
+}
